@@ -1,0 +1,7 @@
+<div>
+	<h2>Hello {{name}}</h2>
+<form [formGroup]="profileForm" class="example-form">
+		<input decimal-mask placeholder="Amount"  formControlName="amount">
+</form>
+		<div>{{profileForm.value.amount}}</div>
+</div>
